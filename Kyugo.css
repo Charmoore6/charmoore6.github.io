@@ -4,10 +4,52 @@ body  {
 
 h1  {
 	color:black;
-	margin-center: 0px;
+	text-align: center;
+	font-size: 60px;
+}
+
+h3  {
+	color: black
+	text-align: left;
+	text-indent: 10px;
+	font-size: 30px;
+	letter-spacing: 3px;
 }
 
 p  {
 	color:black;
 	font-family:verdana;
+	margin-left: 10px;
+	
+	
 }
+
+a:link {
+	color: white;
+	background-color: forestgreen;
+	font-size: 22px;
+	letter-spacing: 3px;
+	margin-left: 10px;
+	font-family: verdana; 
+	
+}
+
+a:visited  {
+	color: white;
+	
+}
+
+a  {
+	border-style: solid;
+	border-width: 10px;
+	border-color: forestgreen;
+	font-family: verdana;
+	text-decoration: none;
+	}
+
+ul  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
